@@ -1,0 +1,24 @@
+*{
+  -webkit-scrollbar-width: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.notification {
+  border-radius: 15px;
+  padding: 1rem;
+  margin-bottom: 20px;
+  background-color: rgba(45, 55, 72, 800);
+}
+
+.notification.new {
+  background-color: rgba(29, 161, 242, 0.1);
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  outline: none;
+}
